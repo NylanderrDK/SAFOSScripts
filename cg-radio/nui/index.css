@@ -1,0 +1,163 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+
+body {
+    position: relative;
+    font-family: digital;
+    overflow: hidden;
+    display: none;
+}
+
+#radio {
+    position: fixed;
+    width: 367px;
+    height: 795px;
+    right: 7%;
+    bottom: 37%;
+}
+
+#toggle {
+    position: absolute;
+    top: 102%;
+    left: 105%;
+    padding: 35px 35px;
+    background-color: rgba(0, 0, 0, .0);
+    border: none;
+    outline: none;
+}
+
+#toggle .hover-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+#toggle:hover .hover-text {
+    visibility: visible;
+}
+
+#vol-up {
+    position: absolute;
+	top: 100%;
+	left: 65%;
+	padding: 35px 17px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    outline: none;
+}
+
+#vol-up .hover-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+#vol-up:hover .hover-text {
+    visibility: visible;
+}
+
+#vol-down {
+    position: absolute;
+	top: 100%;
+	left: 75%;
+	padding: 35px 17px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    outline: none;
+}
+
+#vol-down .hover-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+#vol-down:hover .hover-text {
+    visibility: visible;
+}
+
+#switch-type {
+    position: absolute;
+	top: 141.5%;
+	left: 55%;
+	padding: 10px 22px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    outline: none;
+}
+
+#switch-type .hover-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+#switch-type:hover .hover-text {
+    visibility: visible;
+}
+
+#speaker {
+    position: absolute;
+	top: 141.5%;
+	left: 82%;
+	padding: 10px 22px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    outline: none;
+}
+
+#speaker .hover-text {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 4px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+#speaker:hover .hover-text {
+    visibility: visible;
+}
+
+#radio-screen {
+    display: none;
+	position: absolute;
+	background-color: #E3E3E3;
+	top: 132%;
+	left: 55%;
+    text-align: center;
+}
+
+#radio-screen input {
+    text-align: center;
+	border: none;
+	background-color: #E3E3E3;
+	padding: 11px 38px;
+	font-size: 20px;
+	outline: none;
+    font-family: digital;
+}
