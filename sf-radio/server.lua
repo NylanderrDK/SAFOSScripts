@@ -1,0 +1,11 @@
+RegisterServerEvent("sf:ConnectToRadio")
+AddEventHandler("sf:ConnectToRadio", function(channel)
+    exports.saltychat:SetPlayerRadioChannel(source, channel, true)
+    print("Set " .. GetPlayerName(source) .. "'s radio channel to: " .. channel)
+end)
+
+RegisterServerEvent("sf:DisconnectRadio")
+AddEventHandler("sf:DisconnectRadio", function(channel)
+    exports.saltychat:RemovePlayerRadioChannel(source, channel)
+    print("Set " .. GetPlayerName(source) .. "'s radio channel to null")
+end)
