@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: absolute;
+    height: auto;
+    top: 20%; right: 20%;
+    border-radius: 5px;
+    background: transparent im !important;
+}
+
+#buttons {
+    max-height: 75vh;
+    width: 35vw;
+    overflow-x: none; overflow-y: none;
+    padding: 10px;
+}
+
+html, body {
+    background: transparent !important;
+}
+
+#buttons::-webkit-scrollbar { display: none; }
+body::-webkit-scrollbar { display: none; }
+
+.button {
+    width: auto; max-width: 45%;
+    height: 10%;
+    background: #222831;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    margin-top: .5rem;
+    overflow: hidden;
+    padding: .45rem;
+    border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: .0rem .0rem .1rem .05rem #000;
+}
+
+.button:hover { background: #30475E; }
+
+.button > .txt {
+    color: rgb(232, 229, 229);
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.button > .header {
+    width: 100%; max-width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: left;
+    overflow: wrap;
+    color: rgb(232, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    overflow: hidden;
+    font-weight: 500;
+}
